@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af417954045f2a40aa22b7a52285c62, type: 3}
+  m_Name: TestAI
+  m_EditorClassIdentifier: 
+  nodeLinks:
+  - {fileID: 0}
+  - {fileID: 0}
+  scriptableAIData:
+  - NodeGUID: 25f81d0b-72ac-4cdb-9d90-648d15d49cca
+    dialogeText: some node
+    position: {x: 348, y: 87}
+  - NodeGUID: 00b3287c-967d-491c-af02-d3a176d5abda
+    dialogeText: some node
+    position: {x: 740, y: 248}

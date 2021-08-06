@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <SplitView fixed-pane-initial-dimension="300">
+        <ui:VisualElement name="leftPannel">
+            <ui:Label text="Inspector" display-tooltip-when-elided="true" style="height: 26px; width: 301px; background-color: rgb(37, 37, 37); font-size: 20px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+            <InspectorView />
+        </ui:VisualElement>
+        <ui:VisualElement name="rightPannel">
+            <ui:Label text="Graph" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 20px;" />
+            <BehaviourTreeView focusable="true" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </SplitView>
+</ui:UXML>
